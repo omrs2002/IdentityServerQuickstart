@@ -1,0 +1,103 @@
+2021-12-11 22:00:59.435 +03:00 [INF] Starting host...
+2021-12-11 22:01:01.358 +03:00 [INF] Starting IdentityServer4 version 4.0.0+1acafade44176bf817412aa4309d5dff6587a741
+2021-12-11 22:01:01.370 +03:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2021-12-11 22:01:01.378 +03:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2021-12-11 22:01:01.421 +03:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2021-12-11 22:01:01.421 +03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2021-12-11 22:01:01.422 +03:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2021-12-11 22:01:01.422 +03:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2021-12-11 22:01:01.422 +03:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2021-12-11 22:01:01.656 +03:00 [INF] Now listening on: https://localhost:5001
+2021-12-11 22:01:01.657 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-11 22:01:01.657 +03:00 [INF] Hosting environment: Development
+2021-12-11 22:01:01.658 +03:00 [INF] Content root path: D:\My Projects\IdentityServer4\quickstart\src\IdentityServer
+2021-12-11 22:01:02.378 +03:00 [DBG] Login Url: /Account/Login
+2021-12-11 22:01:02.390 +03:00 [DBG] Login Return Url Parameter: ReturnUrl
+2021-12-11 22:01:02.391 +03:00 [DBG] Logout Url: /Account/Logout
+2021-12-11 22:01:02.391 +03:00 [DBG] ConsentUrl Url: /consent
+2021-12-11 22:01:02.391 +03:00 [DBG] Consent Return Url Parameter: returnUrl
+2021-12-11 22:01:02.391 +03:00 [DBG] Error Url: /home/error
+2021-12-11 22:01:02.392 +03:00 [DBG] Error Id Parameter: errorId
+2021-12-11 22:01:28.482 +03:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2021-12-11 22:01:28.486 +03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2021-12-11 22:01:28.487 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2021-12-11 22:01:28.490 +03:00 [DBG] Start key discovery request
+2021-12-11 22:04:15.536 +03:00 [INF] AuthenticationScheme: idsrv was challenged.
+2021-12-11 22:05:36.422 +03:00 [DBG] CORS request made for path: /Account/Login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2021-12-11 22:05:36.452 +03:00 [DBG] Augmenting SignInContext
+2021-12-11 22:05:36.454 +03:00 [DBG] Adding idp claim with value: local
+2021-12-11 22:05:36.454 +03:00 [DBG] Adding amr claim with value: pwd
+2021-12-11 22:05:36.454 +03:00 [DBG] Adding auth_time claim with value: 1639249536
+2021-12-11 22:05:36.461 +03:00 [INF] AuthenticationScheme: idsrv signed in.
+2021-12-11 22:12:44.135 +03:00 [DBG] Request path /connect/checksession matched to endpoint type Checksession
+2021-12-11 22:12:44.136 +03:00 [DBG] Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint
+2021-12-11 22:12:44.137 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession
+2021-12-11 22:12:44.138 +03:00 [DBG] Rendering check session result
+2021-12-11 22:14:42.950 +03:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2021-12-11 22:14:42.956 +03:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2021-12-11 22:14:42.959 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2021-12-11 22:14:42.963 +03:00 [DBG] Start discovery request
+2021-12-11 22:16:51.906 +03:00 [DBG] Request path /connect/introspect matched to endpoint type Introspection
+2021-12-11 22:16:51.911 +03:00 [DBG] Endpoint enabled: Introspection, successfully created handler: IdentityServer4.Endpoints.IntrospectionEndpoint
+2021-12-11 22:16:51.913 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.IntrospectionEndpoint for /connect/introspect
+2021-12-11 22:16:51.915 +03:00 [WRN] Introspection endpoint only supports POST requests
+2021-12-11 22:17:22.258 +03:00 [DBG] Request path /connect/endsession matched to endpoint type Endsession
+2021-12-11 22:17:22.262 +03:00 [DBG] Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionEndpoint
+2021-12-11 22:17:22.264 +03:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionEndpoint for /connect/endsession
+2021-12-11 22:17:22.268 +03:00 [DBG] Processing signout request for 818727
+2021-12-11 22:17:22.270 +03:00 [DBG] Start end session request validation
+2021-12-11 22:17:22.279 +03:00 [INF] End session request validation success
+{"ClientId":null,"ClientName":null,"SubjectId":"818727","PostLogOutUri":null,"State":null,"Raw":{},"$type":"EndSessionRequestValidationLog"}
+2021-12-11 22:17:22.286 +03:00 [DBG] Success validating end session request from null
+2021-12-11 22:17:24.122 +03:00 [DBG] CORS request made for path: /Account/Logout from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2021-12-11 22:17:24.136 +03:00 [INF] AuthenticationScheme: idsrv signed out.
+2021-12-11 22:40:28.838 +03:00 [INF] Starting host...
+2021-12-11 22:40:30.400 +03:00 [FTL] Host terminated unexpectedly.
+System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in D:\My Projects\IdentityServer4\quickstart\src\IdentityServer\Startup.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in D:\My Projects\IdentityServer4\quickstart\src\IdentityServer\Program.cs:line 49
+2021-12-11 22:40:37.985 +03:00 [INF] Starting host...
+2021-12-11 22:40:38.628 +03:00 [FTL] Host terminated unexpectedly.
+System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in D:\My Projects\IdentityServer4\quickstart\src\IdentityServer\Startup.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in D:\My Projects\IdentityServer4\quickstart\src\IdentityServer\Program.cs:line 49
+2021-12-11 22:41:04.868 +03:00 [INF] Starting host...
+2021-12-11 22:41:05.427 +03:00 [FTL] Host terminated unexpectedly.
+System.ArgumentNullException: Value cannot be null. (Parameter 'implementationInstance')
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton[TService](IServiceCollection services, TService implementationInstance)
+   at IdentityServer.Startup.ConfigureServices(IServiceCollection services) in D:\My Projects\IdentityServer4\quickstart\src\IdentityServer\Startup.cs:line 33
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.InvokeCore(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass9_0.<Invoke>g__Startup|0(IServiceCollection serviceCollection)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.Invoke(Object instance, IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.ConfigureServicesBuilder.<>c__DisplayClass8_0.<Build>b__0(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.UseStartup(Type startupType, HostBuilderContext context, IServiceCollection services, Object instance)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostBuilder.<>c__DisplayClass13_0.<UseStartup>b__0(HostBuilderContext context, IServiceCollection services)
+   at Microsoft.Extensions.Hosting.HostBuilder.CreateServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at IdentityServer.Program.Main(String[] args) in D:\My Projects\IdentityServer4\quickstart\src\IdentityServer\Program.cs:line 49
+2021-12-11 22:41:14.302 +03:00 [INF] Starting host...
+2021-12-11 22:47:21.098 +03:00 [INF] Starting host...
