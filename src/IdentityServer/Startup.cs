@@ -62,6 +62,14 @@ namespace IdentityServer
                 options.EnableTokenCleanup = true;
             });
 
+            /*
+                Add-Migration InitialPersistedGrantDbMigration -c PersistedGrantDbContext -o Data/Migrations/IdentityServer/PersistedGrantDb
+                Add-Migration InitialConfigurationDbMigration -c ConfigurationDbContext -o Data/Migrations/IdentityServer/ConfigurationDb
+                
+                Update-Database -Context PersistedGrantDbContext
+                Update-Database -Context ConfigurationDbContext
+             */
+
             //var builder = services.AddIdentityServer(options =>
             //{options.EmitStaticAudienceClaim = true;})
             //    .AddInMemoryIdentityResources(Config.IdentityResources)
